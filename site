@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C&C 3D - Prodotti Stampati in 3D</title>
+    <style>
+        /* Generale */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        h1, h2, h3 {
+            margin: 0;
+        }
+        a {
+            text-decoration: none;
+            color: #007BFF;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Header */
+        header {
+            background: url('https://www.thorntons-law.co.uk/sites/default/files/uploads/media/News%20and%20Blog%20images/3D%20printing.jpg') no-repeat center center/cover;
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Navigazione */
+        nav {
+            background-color: #007BFF;
+            padding: 0.5rem 0;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #ffdd57;
+        }
+
+        /* Sezioni */
+        section {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 2rem;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        section h2 {
+            color: #007BFF;
+            margin-bottom: 1rem;
+        }
+
+        /* Sezione "Chi Siamo" */
+        #about {
+            background: url(https://macneish.blog/wp-content/uploads/2021/01/3d-printer-concept0.jpg') no-repeat center center/cover;
+            color: blue;
+            padding: 3rem;
+            text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+            border-radius: 8px;
+        }
+
+        /* Prodotti */
+        .product {
+            display: flex;
+            align-items: center;
+            margin-bottom: 1.5rem;
+        }
+        .product img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-right: 1rem;
+        }
+        .product h3 {
+            margin-bottom: 0.5rem;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background: #333;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>C&C 3D - Creazioni Uniche in Stampa 3D</h1>
+</header>
+
+<nav>
+    <a href="#about">Chi Siamo</a>
+    <a href="#products">Prodotti</a>
+    <a href="#contact">Contattaci</a>
+</nav>
+
+<section id="about">
+    <h2>Chi Siamo</h2>
+    <p>Siamo un team appassionato di stampa 3D, specializzato nella creazione di oggetti unici e utili. Ogni prodotto è progettato con cura e attenzione al dettaglio.</p>
+</section>
+
+<section id="products">
+    <h2>Prodotti Disponibili</h2>
+    <div class="product">
+        <img src="https://media.adeo.com/marketplace/MKP/91425082/218b816eb5d9e63db5ff3cee420f101a.png?width=650&height=650&format=jpg&quality=80&fit=bounds" alt="Adattatore batteria">
+        <div>
+            <h3>Adattatore batteria</h3>
+            <p>Soluzione pratica per adattare batterie di diverse marche.</p>
+            <p>Prezzo: €15,99</p>
+            <a href="https://www.ebay.it/itm/link_prodotto1" target="_blank">Acquista su eBay</a>
+        </div>
+    </div>
+    <div class="product">
+        <img src="https://example.com/product2.jpg" alt="Supporto Smartphone Personalizzabile">
+        <div>
+            <h3>Supporto Smartphone Personalizzabile</h3>
+            <p>Supporto per smartphone con possibilità di aggiungere il tuo nome o logo.</p>
+            <p>Prezzo: €19,99</p>
+            <a href="https://www.ebay.it/itm/link_prodotto2" target="_blank">Acquista su eBay</a>
+        </div>
+    </div>
+    <div class="product">
+        <img src="https://example.com/product3.jpg" alt="Scacchiera Tascabile in 3D">
+        <div>
+            <h3>Scacchiera Tascabile in 3D</h3>
+            <p>Scacchiera portatile perfetta per viaggiatori e appassionati.</p>
+            <p>Prezzo: €29,99</p>
+            <a href="https://www.ebay.it/itm/link_prodotto3" target="_blank">Acquista su eBay</a>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contattaci</h2>
+    <p>📧 Email: <a href="mailto:c&c3d@example.com">c&c3d@example.com</a></p>
+    <p>📞 Telefono: +39 123 456 789</p>
+    <p>📍 Indirizzo: Via delle Creazioni, 123 - Tagliolo Monferrato, Italia</p>
+</section>
+
+<footer>
+    <p>Copyright © 2024 C&C 3D - Tutti i diritti riservati.</p>
+</footer>
+
+</body>
+</html>
